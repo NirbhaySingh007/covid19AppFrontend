@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Covid19app
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+=======
+# covid19AppFrontend
+A system that keeps track of Covid-19 cases in different  countries. Users can register in the  application and save search data as logged users. Logged-in user  can put countries on a watch list for their covid  cases. This is the front-end repository of the application.
+>>>>>>> c20c07284cea8c8b236dcdbfc320a0d05d8be246
