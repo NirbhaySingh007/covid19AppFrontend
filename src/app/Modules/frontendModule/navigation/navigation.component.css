@@ -1,0 +1,12 @@
+.navbar{
+    background-image: url('c4.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.im{
+    padding-left: 2%;
+    float: left;
+    width: 10%;
+    height: 6%;
+}

@@ -1,0 +1,42 @@
+<nav class="navbar navbar-expand-lg navbar-dark " *ngIf="isLoggedIn">
+    <a class="navbar-brand" routerLink="/dashboard"><b><i>Covid-19 App</i></b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+      
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/dashboard" >HOME</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/about" >ABOUT</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact" >CONTACT</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link " routerLink="/watch">FAVOURITES</a>
+        </li>
+      
+        <li class="form-inline my-2 "  style ="margin-left: 18cm; ">
+          <label style="color:white ;"><b>Welcome To Covid-19App&nbsp;&nbsp;&nbsp;</b></label>
+            <a (click)="logout()" class = "nav-link"routerLink="/logout">Logout</a>
+          <!--<a class = "nav-link"routerLink="/logout">Logout</a>-->
+        
+        </li>
+      </ul>
+      
+
+    </div>
+  </nav>
+  
+  <div>
+      
+  </div>
+ 
+  

@@ -1,0 +1,33 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #07e659;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(204, 45, 45, 0), rgba(143, 210, 244, 0))
+    }
+    .gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84faaf00;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 175, 0), rgba(143, 210, 244, 0));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(132, 250, 244), rgba(143, 210, 244, 0))
+    }
+    body{
+        background-image:url('covid1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .img1{
+        background-image:url('covid2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        border-radius: 2%;
+    }

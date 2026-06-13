@@ -1,0 +1,13 @@
+body{
+    background-image: url('covid1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 450px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+  }

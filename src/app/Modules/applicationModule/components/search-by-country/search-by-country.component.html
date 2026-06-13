@@ -1,0 +1,23 @@
+<section class="vh-100 gradient-custom">
+    <!--<form class="form-inline" [formGroup]="myform" (ngSubmit)="fetchData()">-->
+        <br><br><br><br>
+        <div style="text-align:center;" >
+            <label><b>Country</b> &nbsp;</label>
+            <select (change)="getCovidData($event)">
+                <option *ngFor="let country of countries" [value]="country.Slug">{{country.Country}}</option>
+            </select>
+            <br>
+            <!--<button (click)="getCovidData()">Fetch Data</button>-->
+            <div class="card">
+                <br>
+                <p><b>Confirmed Cases:</b> {{confirmed}}&nbsp;</p>
+                <p><b>Recovered Cases:</b> {{recovered}}&nbsp;</p>
+                <p><b>Death Cases:</b> {{deaths}}&nbsp;</p>
+                <button type="" class="submitbutton btn btn-primary mb-2" (click)="handleAddToWishlist()">Add to
+                    Favourites</button>&nbsp;
+            </div>
+        </div>
+    
+    
+</section>
+

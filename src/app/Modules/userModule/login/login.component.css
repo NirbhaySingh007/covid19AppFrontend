@@ -1,0 +1,23 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #dee1f2;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(61, 186, 128, 0), rgb(37, 216, 252));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgb(60, 71, 134), rgb(203, 219, 25))
+    }
+    body{
+        background-image:url('covid1.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .img{
+        background-image:url('covid2.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        border-radius: 2%;
+    }
